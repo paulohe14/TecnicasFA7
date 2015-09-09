@@ -1,0 +1,44 @@
+h1 {
+    color: rgba(0, 0, 0, 0.35);
+    text-align: left;
+    margin-left: 5.8em;
+    margin-bottom: 1em;
+    font-size: 48px;
+    font-weight: 900;
+    font-family: sans-serif, Arial;
+}
+
+h4 {
+    color: #234d33;
+    text-align: left;
+    font-weight: 900;
+    font-family: sans-serif, Arial;
+}
+
+fieldset {
+    float: left;
+    clear: left;
+    width: 80%;
+    margin-left: 20em;
+    padding: 0;
+    border: none;
+}
+
+label.tx-colums {
+    margin-top: 1em;
+    display: block;
+    position: relative;
+    color: #8c8c8c;
+
+}
+
+p {
+    color: #234d33;
+}
+
+.submit {
+    margin-left: 2em;
+    margin-top: 3em;
+    padding: 0.3em 1em 0.3em 1em;
+    margin-bottom: 3em;
+}

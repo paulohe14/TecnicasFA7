@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Research Study Screener</title>
+    <link rel="stylesheet" type="text/css" href="style3.css">
+</head>
+<body>
+
+<h1>Research Study Screener</h1>
+
+<form method="post">
+    <fieldset>
+
+        <ol>
+            <li>
+                <label class="label" for="first-name">First Name</label>
+                <input id="first-name" name="first-name" size="30" type="text">
+            </li>
+            <li>
+                <hr/>
+                <label class="label" for="last-name">Last Name</label>
+                <input id="last-name" name="last-name" size="30" type="text">
+            </li>
+            <li>
+                <hr/>
+                <label class="label" for="phone-number">Phone Number</label>
+                <input id="phone-number" name="phone-number" size="30" type="tel">
+            </li>
+            <li>
+                <hr/>
+                <label class="label" for="email">Email</label>
+                <input id="email" name="email" size="30" type="text">
+            </li>
+            <li>
+                <hr/>
+                <label class="label">Do you or any member of your family work for a  market research company?</label>
+
+                <input id="yes" name="member" class="radio" type="radio">
+                <label for="yes">Yes</label>
+                <br/>
+                <input id="no" name="member" class="radio" type="radio">
+                <label for="no">No</label>
+
+            </li>
+            <li>
+                <hr/>
+                <label class="label" for="job-title">Current Job Title</label>
+                <input id="job-title" name="job-title" size="30" type="text">
+            </li>
+            <li>
+                <hr/>
+                <label class="label" for="company-name">Name of the company you work for</label>
+                <input id="company-name" name="company-name" size="30" type="text">
+            </li>
+            <li>
+                <hr/>
+                <label class="label">Current Employment Status</label>
+                <br/>
+
+                <div class="radio-btn">
+
+                    <input id="full-time" name="employment" class="radio" type="radio">
+                    <label for="full-time">Full time</label>
+                    <br/>
+
+                    <input id="part-time" name="employment" class="radio" type="radio">
+                    <label for="part-time">Part time</label>
+                    <br/>
+
+                    <input id="freelance" name="employment" class="radio" type="radio">
+                    <label for="freelance">Freelance / Consultant</label>
+                    <br/>
+
+                    <input id="student" name="employment" class="radio" type="radio">
+                    <label for="student">Student</label>
+                    <br/>
+
+                    <input id="not-employed" name="employment" class="radio" type="radio">
+                    <label for="not-employed">Not employed</label>
+
+                </div>
+            </li>
+            <li>
+                <hr/>
+                <label class="label">Current Payment</label>
+
+                <input id="hourly" name="payment" class="radio" type="radio">
+                <label for="hourly">Paid Hourly</label>
+
+                <input id="salary" name="payment" class="radio" type="radio">
+                <label for="salary">Salary</label>
+            </li>
+            <li>
+                <button id="next" type="button"><a href="exercicio3_2.html">Next</a></button>
+                <label class="page">Page 1 of 2</label>
+            </li>
+        </ol>
+    </fieldset>
+</form>
+
+</body>
+</html>

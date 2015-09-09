@@ -1,0 +1,88 @@
+h1 {
+    color: rgba(0, 0, 0, 0.75);
+    text-align: center;
+    font-family: serif;
+}
+
+fieldset {
+    float: left;
+    clear: left;
+    width: 80%;
+    margin-left: 8em;
+    margin-bottom: 20em;
+    padding: 0;
+    border: 1px solid #BFBAB0;
+    background-image: url("images/gradient-background-more-white.jpg");
+}
+
+/*
+legend {
+    position: relative;
+    margin-left: 1em;
+    padding: 0;
+    color: #000;
+    font-weight: bold;
+    left: -7px;
+    top: -0.75em;
+}
+*/
+
+fieldset ol {
+    list-style: none;
+    padding: 0.1em 1em 0;
+}
+
+fieldset li {
+    float: left;
+    clear: left;
+    width: 50%;
+}
+
+fieldset .enviar {
+    float: none;
+    width: auto;
+    border-style: none;
+    padding-left: 9em;
+
+    padding-top: 1.5em;
+    background-color: #FFFFFF;
+}
+
+label.label {
+    color: #222222;
+    text-align: left;
+    float: left;
+    width: 12em;
+    margin-left: 1em;
+    margin-top: 0.5em;
+}
+
+input {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.radio-btn {
+    margin-left: 13em;
+}
+
+#next {
+    margin-left: 2em;
+    margin-top: 3em;
+    padding: 0.3em 1em 0.3em 1em;
+}
+
+.page {
+    font-family: sans-serif, arial;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    color: #222222;
+}
+
+hr {
+    width: 65em;
+    color: rgba(0, 0, 0, 0.69);
+}
